@@ -26,8 +26,8 @@ $('#toggle').click(function() {
         } else {
             $('#overlay').addClass('open');
             $('#overlay').removeClass('close');
-             $('.button_container').css("position","fixed");
-   $('.button_container').css("right","36px");
+           /*  $('.button_container').css("position","fixed");
+   $('.button_container').css("right","36px");*/
           }
   });
  
@@ -74,10 +74,10 @@ var btn = document.getElementById("f1");
 var span = document.getElementsByClassName("close")[0];
 
 
-span.onclick = function() {
+/*span.onclick = function() {
     modal.style.display = "none";
    $('body').css('overflow-y','scroll')
-}
+}*/
 
 window.onclick = function(event) {
     if (event.target == modal) {
